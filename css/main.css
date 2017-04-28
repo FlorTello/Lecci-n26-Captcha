@@ -1,0 +1,60 @@
+h2{
+  text-align: center;
+  color: #8b1e2e;
+}
+.content{
+  width: 500px;
+  height: 300px;
+  margin: 10px 20% ;
+  position: relative;
+  background-color: #8b1e2e;
+}
+.captcha{
+  display: inline-block;
+  position: relative;
+  width: 95%;
+  height: 100px;
+  margin: 21px 10px;
+  font-size: 3rem;
+  text-align: center;
+}
+.textCaptacha{
+  width: 50%;
+  height: 100px;
+  position: relative;
+  margin: 21px 10px;
+  background-color: #f9e777;
+  border-style: none;
+}
+.result{
+  position: relative;
+}
+.icono1{
+  position: absolute;
+  top: 30px;
+  font-size: 1.5rem;
+  margin: 10px;
+  color: white;
+}
+.icono2{
+  border:white 1px solid;
+  position: absolute;
+  top: 70px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 10px;
+  color: white;
+  border-radius: 50px;
+}
+#reCaptcha{
+  width: 120px;
+  height: 70px;
+  background: url(../img/captcha.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-style: none;
+  display: inline-block;
+  right: 50px;
+  top: 30px;
+  position: absolute;
+}
